@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>বন্ধু চ্যাট</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header id="chat-header">
+      <h1>বন্ধু চ্যাট</h1>
+      <span id="user-indicator">User 1 is typing...</span>
+    </header>
+    <main id="chat-history">
+       <p class="initial-message">চ্যাটিং শুরু করুন!</p>
+    </main>
+    <footer>
+      <form id="chat-form" aria-label="Chat form">
+        <input type="text" id="message-input" placeholder="বার্তা লিখুন..." autocomplete="off" aria-label="Chat message input">
+        <button type="submit" id="send-button" aria-label="Send message">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+          </svg>
+        </button>
+      </form>
+      <button id="user-switcher" aria-label="Switch user">🔄</button>
+    </footer>
+  </div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
